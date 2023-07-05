@@ -11,20 +11,20 @@ int main(){
     int p, result;
 
     //Recieve data
-    printf("Ââåä³òü ðîçÿäí³ñòü ÷èñëà(äî 30): ");
+    printf("Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ€Ð¾Ð·ÑÐ´Ð½Ñ–ÑÑ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð°(Ð´Ð¾ 30): ");
     scanf("%d", &p);
 
     //Filter data and calculate the result according to the input data
     if (p > 2 && p < 30){
         result = pow(2, p) - pow(2, p - 2);
-        printf("Ç ðîçðÿäí³ñòþ %d ìîæíà ñòâîðèòè: %d ÷èñåë\n", p, result);
+        printf("Ð— Ñ€Ð¾Ð·Ñ€ÑÐ´Ð½Ñ–ÑÑ‚ÑŽ %d Ð¼Ð¾Ð¶Ð½Ð° ÑÑ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ð¸: %d Ñ‡Ð¸ÑÐµÐ»\n", p, result);
     }
     else if (p > 0 && p < 3){
         result = pow(2, p);
-        printf("Ç ðîçðÿäí³ñòþ %d ìîæíà ñòâîðèòè: %d ÷èñåë\n", p, result);
+        printf("Ð— Ñ€Ð¾Ð·Ñ€ÑÐ´Ð½Ñ–ÑÑ‚ÑŽ %d Ð¼Ð¾Ð¶Ð½Ð° ÑÑ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ð¸: %d Ñ‡Ð¸ÑÐµÐ»\n", p, result);
     }
     else{
-        printf("Âàøå ÷èñëî íå çàäîâ³ëüíÿº óìîâè(");
+        printf("Ð’Ð°ÑˆÐµ Ñ‡Ð¸ÑÐ»Ð¾ Ð½Ðµ Ð·Ð°Ð´Ð¾Ð²Ñ–Ð»ÑŒÐ½ÑÑ” ÑƒÐ¼Ð¾Ð²Ð¸(");
     }
 
     return 0;
