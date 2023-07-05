@@ -33,9 +33,9 @@ int main(){
     int n[20], i, amount_of_d, result = 1;
 
     //Recieve data
-    printf("Введіть кількість чисел для знаходження НСК(не більше 20): ");
+    printf("Р’РІРµРґС–С‚СЊ РєС–Р»СЊРєС–СЃС‚СЊ С‡РёСЃРµР» РґР»СЏ Р·РЅР°С…РѕРґР¶РµРЅРЅСЏ РќРЎРљ(РЅРµ Р±С–Р»СЊС€Рµ 20): ");
     scanf("%d", &amount_of_d);
-    printf("Введіть %d числа/чисел для знаходження НСК: ", amount_of_d);
+    printf("Р’РІРµРґС–С‚СЊ %d С‡РёСЃР»Р°/С‡РёСЃРµР» РґР»СЏ Р·РЅР°С…РѕРґР¶РµРЅРЅСЏ РќРЎРљ: ", amount_of_d);
 
     //Transport data to calculating
     for(i = 0; i < amount_of_d; i++)
@@ -44,7 +44,7 @@ int main(){
     for(i = 0; i < amount_of_d; i++)
         result = lcm(result,n[i]);
 
-    printf("НСК = %d\n", result);
+    printf("ГЌГ‘ГЉ = %d\n", result);
 
     return 0;
 }
