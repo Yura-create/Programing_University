@@ -10,7 +10,7 @@ int main(){
     //Main variables
     int p, result;
 
-    //Recieve data
+    //Receive data
     printf("Введіть розядність числа(до 30): ");
     scanf("%d", &p);
 
