@@ -32,7 +32,7 @@ int main(){
     //Main variables
     int n[20], i, amount_of_d, result = 1;
 
-    //Recieve data
+    //Receive data
     printf("Введіть кількість чисел для знаходження НСК(не більше 20): ");
     scanf("%d", &amount_of_d);
     printf("Введіть %d числа/чисел для знаходження НСК: ", amount_of_d);
