@@ -23,15 +23,15 @@ int main(){
     int n, result;
 
     //Receive data
-    printf("Ââåä³òü íàòóðàëüíå ÷èñëî: ");
+    printf("Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ñ‚ÑƒÑ€Ð°Ð»ÑŒÐ½Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ");
     scanf("%d", &n);
 
     //Filter data according to task and give result
     if(n > 1 && n < 150) {
         result = find_result(n);
-        printf("Ê³ëüê³ñòü ð³âíèõ ä³ëüíèê³â %d: %d", n, result);
+        printf("ÐšÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ Ñ€Ñ–Ð²Ð½Ð¸Ñ… Ð´Ñ–Ð»ÑŒÐ½Ð¸ÐºÑ–Ð² %d: %d", n, result);
     }else
-        printf("Âàøå ÷èñëî íå çàäîâ³ëüíÿº óìîâè(");
+        printf("Ð’Ð°ÑˆÐµ Ñ‡Ð¸ÑÐ»Ð¾ Ð½Ðµ Ð·Ð°Ð´Ð¾Ð²Ñ–Ð»ÑŒÐ½ÑÑ” ÑƒÐ¼Ð¾Ð²Ð¸(");
 
 
     return 0;
