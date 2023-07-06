@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <windows.h>
 
+//function that calculate sequences
 int countSequences(int n) {
     int dp[n + 1];
     dp[0] = 1;
@@ -23,14 +24,15 @@ int main() {
     int n;
 
     //Receive data
-    printf("Введіть довжину послідовності (n): ");
+    printf("Р’РІРµРґС–С‚СЊ РґРѕРІР¶РёРЅСѓ РїРѕСЃР»С–РґРѕРІРЅРѕСЃС‚С– (n): ");
     scanf("%d", &n);
 
+    //Filter data according to task
     if (n < 1 || n > 10000)
-        printf("Ваше число не задовільняє умови(");
+        printf("Р’Р°С€Рµ С‡РёСЃР»Рѕ РЅРµ Р·Р°РґРѕРІС–Р»СЊРЅСЏС” СѓРјРѕРІРё(");
     else {
         int result = countSequences(n);
-        printf("Кількість допустимих послідовностей довжиною %d: %d\n", n, result);
+        printf("РљС–Р»СЊРєС–СЃС‚СЊ РґРѕРїСѓСЃС‚РёРјРёС… РїРѕСЃР»С–РґРѕРІРЅРѕСЃС‚РµР№ РґРѕРІР¶РёРЅРѕСЋ %d: %d\n", n, result);
     }
 
     return 0;
