@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <windows.h>
 
 int main(){
@@ -23,6 +22,5 @@ int main(){
         printf("Час, необхідний для з'їдання пирога: %.2f \n", result);
     }
 
-    getch();
     return 0;
 }
