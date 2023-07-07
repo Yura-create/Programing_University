@@ -27,12 +27,12 @@ int main(){
     double x1, y1, r1, x2, y2, r2;
 
     //Receive data
-    printf("Введіть координати та радіуси кіл(x1, y1, r1, x2, y2, r2): ");
+    printf("Р’РІРµРґС–С‚СЊ РєРѕРѕСЂРґРёРЅР°С‚Рё С‚Р° СЂР°РґС–СѓСЃРё РєС–Р»(x1, y1, r1, x2, y2, r2): ");
     scanf("%lf %lf %lf %lf %lf %lf", &x1, &y1, &r1, &x2, &y2, &r2);
 
     //Return result
     int result = intersection_points(x1, y1, r1, x2, y2, r2);
-    printf("Кількість точок перетину: %d\n", result);
+    printf("РљС–Р»СЊРєС–СЃС‚СЊ С‚РѕС‡РѕРє РїРµСЂРµС‚РёРЅСѓ: %d\n", result);
 
     return 0;
 }
