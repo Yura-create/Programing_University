@@ -32,18 +32,18 @@ int main(){
     int length;
 
     //Receive data
-    printf("Введіть слово, яке не перевищює 14 букв: ");
+    printf("Р’РІРµРґС–С‚СЊ СЃР»РѕРІРѕ, СЏРєРµ РЅРµ РїРµСЂРµРІРёС‰СЋС” 14 Р±СѓРєРІ: ");
     scanf("%s", word);
 
     //Calculate length of the word
     length = strlen(word);
 
-    //Checking if a word contain more than 14 letters
+    //Checking the word and return result
     if (length > 14 || length == 0){
-        printf("На жаль, у вашому слові більше ніж 14 букв або ж зовсім немає букв\n");
+        printf("РќР° Р¶Р°Р»СЊ, Сѓ РІР°С€РѕРјСѓ СЃР»РѕРІС– Р±С–Р»СЊС€Рµ РЅС–Р¶ 14 Р±СѓРєРІ Р°Р±Рѕ Р¶ Р·РѕРІСЃС–Рј РЅРµРјР°С” Р±СѓРєРІ\n");
     }else{
         int result = amount_of_anagrams(length);
-        printf("Кількість анограм: %d", result);
+        printf("РљС–Р»СЊРєС–СЃС‚СЊ Р°РЅРѕРіСЂР°Рј: %d", result);
     }
 
     return 0;
