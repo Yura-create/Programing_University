@@ -20,12 +20,12 @@ int main(){
     int x1, y1, x2, y2;
 
     //Receive data
-    printf("Введіть координати двох точок(х1, y1, x2, y2): ");
+    printf("Р’РІРµРґС–С‚СЊ РєРѕРѕСЂРґРёРЅР°С‚Рё РґРІРѕС… С‚РѕС‡РѕРє(С…1, y1, x2, y2): ");
     scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
 
     //Call function to calculate vector's length
     double result = calculate_length(x1, y1, x2, y2);
-    printf("Довжина вектора: %.6f", result);
+    printf("Р”РѕРІР¶РёРЅР° РІРµРєС‚РѕСЂР°: %.6f", result);
 
     return 0;
 }
