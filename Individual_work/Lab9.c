@@ -31,14 +31,14 @@ int main(){
     int x, y;
 
     //Receive data
-    printf("Введіть x: ");
+    printf("Р’РІРµРґС–С‚СЊ x: ");
     scanf("%d", &x);
-    printf("Введіть y: ");
+    printf("Р’РІРµРґС–С‚СЊ y: ");
     scanf("%d", &y);
 
     //Calculate result and return it
     int steps = minSteps(x, y);
-    printf("Мінімальна кількість кроків: %d\n", steps);
+    printf("РњС–РЅС–РјР°Р»СЊРЅР° РєС–Р»СЊРєС–СЃС‚СЊ РєСЂРѕРєС–РІ: %d\n", steps);
 
     return 0;
 }
